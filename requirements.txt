@@ -1,0 +1,9 @@
+scikit-image
+gunicorn
+face-recognition
+face-recognition-models
+fastapi
+urllib3
+uvicorn
+opencv-python-headless
+mangum

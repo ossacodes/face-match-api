@@ -1,0 +1,23 @@
+<!-- create stripe page design -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- create a button with a red color-->
+    <button style="background-color: red;">
+        <p>Pay with Stripe</p>
+    </button>
+    <!-- create a form with a hidden input to send the token to the server -->
+    <form action="charge.php" method="post" id="payment-form">
+        <input type="hidden" name="token" value="">
+    </form>
+    <!-- create a script to send the token to the server -->
+    <script src="https://js.stripe.com/v3/"></script>
+
+</body>
+</html>  
